@@ -4546,6 +4546,11 @@ let btn = [{
                         }
                      }
             break
+//Baru
+case 'gcbot'
+reply('https://chat.whatsapp.com/JzMtXnmGpuuCLTEz4zMFzH')
+break
+//Baru
 case 'databasemenu': {
 anu = `${ucapanWaktu} ${pushname}
 ╭─❏ *『 INFO USER 』*
