@@ -655,6 +655,49 @@ let btn = [{
                 }
             }
             break
+case 'tes': {
+anu = `*[AZHIL-MD]*
+Azhil-bot Sedang On Dalam : ${runtime(process.uptime())}`
+let btn = [{
+                                urlButton: {
+                                    displayText: 'My Youtube️',
+                                    url: 'https://youtube.com/channel/UCF5pi-9us5XT51gg0zhIrhg'
+                                }
+                                }, {
+                                urlButton: {
+                                    displayText: 'Website Bot',
+                                    url: 'https://github.com/zaki1726'
+                                }
+                            }, {
+                                quickReplyButton: {
+                                    displayText: 'Rules❗',
+                                    id: 'rules'
+                                }
+                            }, {
+                                quickReplyButton: {
+                                    displayText: 'Owner👤',
+                                    id: 'owner'
+                                }  
+                            }, {
+                                quickReplyButton: {
+                                    displayText: 'Fitur Bot',
+                                    id: 'command'
+                                }
+                            }]
+                         let setbot = db.data.settings[botNumber]
+                        if (setbot.templateImage) {
+                        xavior.send5ButImg(m.chat, anu, 'Azhil-MD', global.thumb, btn, global.thumb)
+                        } else if (setbot.templateGif) {
+                        xavior.send5ButGif(m.chat, anu, 'Azhil-MD', global.visoka, btn, global.thumb)
+                        } else if (setbot.templateVid) {
+                        xavior.send5ButVid(m.chat, anu, 'Azhil-MD', global.visoka, btn, global.thumb)
+                        } else if (setbot.templateMsg) {
+                        xavior.send5ButMsg(m.chat, anu, 'Azhil-MD', btn)
+                        } else if (setbot.templateLocation) {
+                        xavior.send5ButLoc(m.chat, anu, 'Azhil-MD', global.thumb, btn)
+                        }
+                     }
+            break
             case 'halah': case 'hilih': case 'huluh': case 'heleh': case 'holoh':
             if (!m.quoted && !text) throw `Kirim/reply text dengan caption ${prefix + command}`
             ter = command[1].toLowerCase()
