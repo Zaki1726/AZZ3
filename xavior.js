@@ -2898,7 +2898,7 @@ anu = `╭──「 *SEWABOT* 」
 ├  DAN RATUSAN FITUR LAINYA
 ╰────
 ╭─[ *MINAT CHAT* ]
-├  🪀 wa.me/6281511480762?text=SEWABOT
+├  🪀 wa.me/6285817964582?text=SEWABOT
 ╰────
 ╭─[ *PAYMENT* ]
 ├  DANA
@@ -2920,7 +2920,7 @@ anu = `╭──「 *SEWABOT* 」
 ├  NAMA BOT, NAMA OWNER, OWNER, DLL DI GANTI JADI TERSERAH LU
 ╰────
 ╭─[ *MINAT CHAT* ]
-├  🪀 wa.me/6281511480762?text=JADIBOT
+├  🪀 wa.me/6285817964582?text=JADIBOT
 ╰────
 ╭─[ *PAYMENT* ]
 ├  DANA
@@ -2969,11 +2969,11 @@ let btn = [{
                         }
             break
 case 'gopay': {
-                m.reply('NOPE GOPAY: 081511480762')
+                m.reply('NOPE GOPAY: 085817964582')
             }
             break
 case 'dana': {
-                m.reply('NOPE DANA: 081511480762')
+                m.reply('NOPE DANA: 085817964582')
             }
             break
 case 'pulsa': {
@@ -4837,8 +4837,8 @@ let btn = [{
 
 case 'donasi': {
 anu = `╭─❏ *『 DONASI 』*
-│ ➪ Dana : 081511480762
-│ ➪ Gopay : 081511480762
+│ ➪ Dana : 085817964582
+│ ➪ Gopay : 085817964582
 ╰───────────────❏
 
 *TERIMA KASIH BUAT YANG SUDAH MAU DONASI🤗*`
@@ -4884,7 +4884,7 @@ Atau Bahkan Terbanned Dari
 Pihak WhatsApp
 
 👦 : Scriptnya Beli Dimana?
-🤖 : Script Gak Dijual, Tapi Bisa Cari Di YT MBY•OFFICIAL
+🤖 : Script Gak Dijual 
 
 👦 : Boleh Masukin Ke Grup Saia
 Tidak?
