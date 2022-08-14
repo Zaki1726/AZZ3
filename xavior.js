@@ -1174,11 +1174,11 @@ break
                 if (args[0] === "on") {
                 if (db.data.chats[m.chat].mute) return m.reply(`Sudah Aktif Sebelumnya`)
                 db.data.chats[m.chat].mute = true
-                m.reply(`${'Azhil-MD'} telah di mute di group ini !`)
+                m.reply(`${'AzzBot-MD'} telah di mute di group ini !`)
                 } else if (args[0] === "off") {
                 if (!db.data.chats[m.chat].mute) return m.reply(`Sudah Tidak Aktif Sebelumnya`)
                 db.data.chats[m.chat].mute = false
-                m.reply(`${'Azhil-MD'} telah di unmute di group ini !`)
+                m.reply(`${'AzzBot-MD'} telah di unmute di group ini !`)
                 } else {
                  let buttons = [
                         { buttonId: 'mute on', buttonText: { displayText: 'On' }, type: 1 },
@@ -1500,7 +1500,7 @@ break
             let media = await quoted.download()
             let { toAudio } = require('./lib/converter')
             let audio = await toAudio(media, 'mp4')
-            xavior.sendMessage(m.chat, {document: audio, mimetype: 'audio/mpeg', fileName: `Convert By ${'Azhil-MD'}.mp3`}, { quoted : m })
+            xavior.sendMessage(m.chat, {document: audio, mimetype: 'audio/mpeg', fileName: `Convert By ${'AzzBot-MD'}.mp3`}, { quoted : m })
             }
             break
             case 'tovn': case 'toptt': {
@@ -5067,7 +5067,7 @@ https://zenzapis.xyz`
                                 isForwarded: true,
                                 participant: other
                             }
-                        } : {})d
+                        } : {})
                     }
                     return !0
                 }
