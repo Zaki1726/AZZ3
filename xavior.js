@@ -3031,10 +3031,10 @@ let template = await generateWAMessageFromContent(m.chat, proto.Message.fromObje
                     footerText: "Azhil-MD",
                     listType: "SINGLE_SELECT",
                     sections: [{
-								"title": "All Menu Hentai",
+								"title": "All Menu",
 								"rows": [
 									{
-										"title": "All Menui",
+										"title": "All Menu",
 										"description": "Menampilkan Semua Menu Bot",
 										"rowId": `${prefix}allmenu`
 									}
