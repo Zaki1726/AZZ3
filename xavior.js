@@ -4544,9 +4544,55 @@ let btn = [{
                      }
             break
 //Baru
-case 'gcbot'
-reply('https://chat.whatsapp.com/JzMtXnmGpuuCLTEz4zMFzH')
-break
+case 'mainmenu': {
+anu = `${ucapanWaktu} ${pushname}
+╭─❏ *『 INFO USER 』*
+│ ➪ Name : ${pushname}
+│ ➪ Number : ${m.sender.split('@')[0]}
+╰───────────────❏
+
+-https://chat.whatsapp.com/JzMtXnmGpuuCLTEz4zMFzH|
+let btn = [{
+                                urlButton: {
+                                    displayText: 'My Youtube️',
+                                    url: 'https://youtube.com/channel/UCF5pi-9us5XT51gg0zhIrhg'
+                                }
+                                }, {
+                                urlButton: {
+                                    displayText: 'Website Bot',
+                                    url: 'https://github.com/zaki1726'
+                                }
+                            }, {
+                                quickReplyButton: {
+                                    displayText: 'Rules❗',
+                                    id: 'rules'
+                                }
+                            }, {
+                                quickReplyButton: {
+                                    displayText: 'Owner👤',
+                                    id: 'owner'
+                                }  
+                            }, {
+                                quickReplyButton: {
+                                    displayText: 'Fitur Bot',
+                                    id: 'command'
+                                }
+                            }]
+                         let setbot = db.data.settings[botNumber]
+                        if (setbot.templateImage) {
+                        xavior.send5ButImg(m.chat, anu, 'Azhil-MD', global.thumb, btn, global.thumb)
+                        } else if (setbot.templateGif) {
+                        xavior.send5ButGif(m.chat, anu, 'Azhil-MD', global.visoka, btn, global.thumb)
+                        } else if (setbot.templateVid) {
+                        xavior.send5ButVid(m.chat, anu, 'Azhil-MD', global.visoka, btn, global.thumb)
+                        } else if (setbot.templateMsg) {
+                        xavior.send5ButMsg(m.chat, anu, 'Azhil-MD', btn)
+                        } else if (setbot.templateLocation) {
+                        xavior.send5ButLoc(m.chat, anu, 'Azhil-MD', global.thumb, btn)
+                        }
+                     }
+            break
+
 //baru
 case 'databasemenu': {
 anu = `${ucapanWaktu} ${pushname}
@@ -5018,9 +5064,11 @@ https://github.com/sonelstore
 Nanang:
 https://github.com/Xavior88
 YahyaGanz:
-https://github.com/zaki1726
+https://github.com/yahya
 Penyedia Rest Api :
-https://zenzapis.xyz`
+https://zenzapis.xyz
+ZakkyYB :
+https://github.com/zaki1726`
 	let btn = [{
                                 urlButton: {
                                     displayText: 'My Youtube️',
