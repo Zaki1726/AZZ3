@@ -594,14 +594,11 @@ Silahkan @${m.mentionedJid[0].split`@`[0]} untuk ketik terima/tolak`
             break
 	    
             case 'sc': {
-                anu = `*Kalian Bisa Cek Yt XaviorOfc:*
-
-*Recode By : Xavior88*
-https://github.com/Xavior88`
+                anu = `*Sc Ini Bersifat Private*`
 let btn = [{
                                 urlButton: {
-                                    displayText: 'Source Code',
-                                    url: 'https://github.com/Xavior88'
+                                    displayText: 'Website',
+                                    url: 'https://github.com/Zaki1726'
                                 }
                             }]
                          let setbot = db.data.settings[botNumber]
@@ -4550,7 +4547,7 @@ let btn = [{
 case 'gcbot'
 reply('https://chat.whatsapp.com/JzMtXnmGpuuCLTEz4zMFzH')
 break
-//Baru
+//baru
 case 'databasemenu': {
 anu = `${ucapanWaktu} ${pushname}
 ╭─❏ *『 INFO USER 』*
