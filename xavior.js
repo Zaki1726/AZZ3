@@ -3025,17 +3025,17 @@ break
 case 'command':{
 let template = await generateWAMessageFromContent(m.chat, proto.Message.fromObject({
                 listMessage :{
-                    title: `Ternyata ${pushname} Ini Sangat Kocak Gaming\n\nJika ${pushname} Lagi Gabut Klik Aja Kotak Ini\n`,
-                    description: "*Klik Aja deck🗿👇*",
-                    buttonText: "MENU",
-                    footerText: "Njir Masih Dibaca",
+                    title: `Jika Ada Bug Lapor owner\nDengan Mengetik .owner`,
+                    description: "*Menu Bot*",
+                    buttonText: "Klik Ini",
+                    footerText: "Azhil-MD",
                     listType: "SINGLE_SELECT",
                     sections: [{
 								"title": "All Menu Hentai",
 								"rows": [
 									{
-										"title": "All Menu Hentai",
-										"description": "Cari Di YT Bot Bang🗿",
+										"title": "All Menui",
+										"description": "Menampilkan Semua Menu Bot",
 										"rowId": `${prefix}allmenu`
 									}
 								]
@@ -3045,7 +3045,7 @@ let template = await generateWAMessageFromContent(m.chat, proto.Message.fromObje
 								"rows": [
 									{
 										"title": "Owner Menu",
-										"description": "Mau Dibuatin Bot? Chat WA😉",
+										"description": "Menu Owner",
 										"rowId": `${prefix}ownermenu`
 									},
 									{
@@ -3065,7 +3065,7 @@ let template = await generateWAMessageFromContent(m.chat, proto.Message.fromObje
 									},
 									{
 										"title": "Search Menu",
-										"description": "Lu Bisa Cari 18+ Disini 🗿",
+										"description": "Menampilkan Search Menu",
 										"rowId": `${prefix}searchmenu`
 									},
 									{
@@ -3075,7 +3075,7 @@ let template = await generateWAMessageFromContent(m.chat, proto.Message.fromObje
 									},
 									{
 										"title": "Text Pro Menu",
-										"description": "Buat Teks Yang GG",
+										"description": "Menampilkan Text Pro Menu",
 										"rowId": `${prefix}textpromenu`
 									},
 									{
@@ -3090,12 +3090,12 @@ let template = await generateWAMessageFromContent(m.chat, proto.Message.fromObje
 									},
 									{
 										"title": "Fun Menu",
-										"description": "Have Fun Doang 😛",
+										"description": "Game Menu",
 										"rowId": `${prefix}funmenu`
 									},
 									{
 										"title": "Menu Dukun",
-										"description": "Menu Dukun Bng",
+										"description": "Dukun Menu",
 										"rowId": `${prefix}primbonmenu`
 									},
 									{
@@ -3115,7 +3115,7 @@ let template = await generateWAMessageFromContent(m.chat, proto.Message.fromObje
 									},
 									{
 										"title": "Heker Menu",
-										"description": "Jancuk Pistel, Pistel Temayo🗿",
+										"description": "Jancuk Pistel, Pistel Temayo",
 										"rowId": `${prefix}anonymousmenu`
 									},
 									{
@@ -3125,7 +3125,7 @@ let template = await generateWAMessageFromContent(m.chat, proto.Message.fromObje
 									},
 									{
 										"title": "Voice Changer",
-										"description": "Menampilkan Menu VC 🗿",
+										"description": "Menampilkan Menu voice changer",
 										"rowId": `${prefix}voicechangermenu`
 									}
 										]
@@ -3135,7 +3135,7 @@ let template = await generateWAMessageFromContent(m.chat, proto.Message.fromObje
 								"rows": [
 									{
 										"title": "Pembuat Bot",
-										"description": "Pembuat Botnya Cuy",
+										"description": "Pembuat Bot Azhil-MD",
 										"rowId": `${prefix}owner`
 									}
 								]
@@ -3145,7 +3145,7 @@ let template = await generateWAMessageFromContent(m.chat, proto.Message.fromObje
 								"rows": [
 									{
 										"title": "Sewabot",
-										"description": "Biar Bisa Masukin Ke Grup Lu",
+										"description": "Sewa Bot",
 										"rowId": `${prefix}sewabot`
 									}
 								]
