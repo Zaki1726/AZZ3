@@ -4544,7 +4544,7 @@ let btn = [{
                      }
             break
 //Baru
-case 'mainmenu': {
+case 'gcbot': {
 anu = `${ucapanWaktu} ${pushname}
 ╭─❏ *『 INFO USER 』*
 │ ➪ Name : ${pushname}
