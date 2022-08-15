@@ -594,7 +594,8 @@ Silahkan @${m.mentionedJid[0].split`@`[0]} untuk ketik terima/tolak`
             break
 	    
             case 'sc': {
-                anu = `*Sc Ini Bersifat Private*`
+                anu = `*Sc Ini Bersifat Private*
+                Sc Ori : https://github.com/AzzBott679/AZZ3`
 let btn = [{
                                 urlButton: {
                                     displayText: 'Website',
@@ -3454,7 +3455,26 @@ anu = `${ucapanWaktu} ${pushname}
 │➪ ${prefix}robot
 │➪ ${prefix}slow
 │➪ ${prefix}tupai
-╰───────────────❏`
+╰───────────────❏
+*Thank To*
+Adiwajshing :
+https://github.com/Adiwajshing
+Dika Ardnt :
+https://github.com/DikaArdnt
+Fandy :
+https://github.com/NzrlAfndi
+Abuzz :
+https://github.com/Abuzzpoet
+Sonel :
+https://github.com/sonelstore
+Nanang:
+https://github.com/Xavior88
+YahyaGanz:
+https://github.com/yahya
+Penyedia Rest Api :
+https://zenzapis.xyz
+ZakkyYB :
+https://github.com/zaki1726`
 let btn = [{
                                 urlButton: {
                                     displayText: 'My Youtube️',
@@ -4884,7 +4904,7 @@ let btn = [{
             break
                    
             case 'menu': case 'help': case '?': {
-                anu = `${ucapanWaktu} User\n\nI Am ${global.namabot}, Bot Ini Gak Secanggih Bot Ditahun 3000an.\n\nKarna ${global.namabot} Adalah Hasil Dari ZakkyTB\n\nKalau Abng Makai Botnya Tapi Ngelag, Itu Karna Abang Wibu🗿`
+                anu = `${ucapanWaktu} ${pushname}`
                 let btn = [{
                                 urlButton: {
                                     displayText: 'My Youtube️',
