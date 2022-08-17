@@ -2926,7 +2926,10 @@ m.reply(sewanya)
 break
 case 'sewabot':
 anu = `╭──「 *SEWABOT* 」
-├  1 BULAN : IDR 10.000 (10k)
+├  *SEWA BOTZ AZHIL*
+├1 Minggu : 2k
+├1 bulan : 8k
+├Permanen : 10k
 ╰────
 ╭─ [ KELEBIHAN BOT ]
 ├  ＯＮ 24 ＪＡＭ
@@ -2936,19 +2939,22 @@ anu = `╭──「 *SEWABOT* 」
 ╭─[ KEUNTUNGAN ]
 ├  ANTI LINK ( AUTO KICK )
 ├  WELCOME ( OTOMATIS )
-├  DAN RATUSAN FITUR LAINYA
+├  DAN RATUSAN FITUR LAINNYA
 ╰────
 ╭─[ *MINAT CHAT* ]
 ├  🪀 wa.me/6285817964582?text=SEWABOT
 ╰────
 ╭─[ *PAYMENT* ]
-├  DANA
-├  GOPAY
+├ DANA
+├ GOPAY
+├ PULSA
 ╰────
 
 
 ╭──「 *_JADI BOT + OWNER_* 」
-├   RP : IDR 20.000 (20k)
+├ 1 MINGGU : 5K
+├ 1 BULAN : 15K
+├ 1 PERMANEN : 25K
 ╰────
 ╭─ [ FASILITAS ]
 ├  CUMA SCAN QR DOANG JADI BOT + OWNER                
@@ -3018,7 +3024,7 @@ case 'dana': {
             }
             break
 case 'pulsa': {
-m.reply('MAAF TIDAK MENERIMA PEMBAYARAN PULSA:(')
+m.reply('NOPE DANA: 085817964582:(')
 }
 break
 // Button List
